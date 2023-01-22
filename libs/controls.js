@@ -7,8 +7,8 @@ window.addEventListener('mousedown', function(event) {
 	}
 
 	// Создаём узел контроля громкости (усиления)
-	// const gainNode = audioContext.createGain();
-	// gainNode.gain.value = 1;
+	const gainNode = audioContext.createGain();
+	gainNode.gain.value = 1;
 
 	const folder = event.target.dataset.type;
 	const song = event.target.dataset.id;
@@ -16,16 +16,16 @@ window.addEventListener('mousedown', function(event) {
 
 	const audio = new Audio(`samples/${folder}/${song}`);
 	audio.src = `samples/${folder}/${song}`;
-	audio.controls = true;
+	// audio.controls = true;
 	// audio.loop = true;
 	audio.autoplay = true;
-	document.body.appendChild(audio);
+	// document.body.appendChild(audio);
 
 	const source = audioContext.createMediaElementSource(audio);
-	source.connect(audioContext.destination);
+	// source.connect(audioContext.destination);
 
-	// source.connect(gainNode);
-	// gainNode.connect(audioContext.destination);
+	source.connect(gainNode);
+	gainNode.connect(audioContext.destination);
 });
 
 
