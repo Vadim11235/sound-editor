@@ -8,10 +8,19 @@
 	<title>Sound editor</title>
 	<link rel="stylesheet" href="libs/interface/base.css">
 	<link rel="stylesheet" href="libs/interface/controls.css">
+	<link rel="stylesheet" href="libs/interface/panels.css">
 	<link rel="stylesheet" href="libs/interface/samples.css">
 </head>
 <body>
 	<div class="container">
+		<div class="">
+			<select class="select">
+				<option value="samle-1">samle 1</option>
+				<option value="samles2">samles2</option>
+				<option value="samles3">samles3</option>
+			</select>
+			<button>+</button>
+		</div>
 		<div class="panels">
 			<section class="panel bass-panel">
 				<select class="select">
@@ -25,10 +34,26 @@
 					<button data-type="bit" data-id="filter-mod-electro-synth-bass-loop_127bpm_B_major.wav" class="control js-control">3</button>
 					<button data-type="bit" data-id="hard-distorted-travis-scott-type-trap-808-bass-one-shot_C_major.wav" class="control js-control">4</button>
 					<button data-type="bit" data-id="pitch-glide-synth-bass-electro-loop_101bpm.wav" class="control js-control">5</button>
-					<button data-type="bit" data-id="" class="control js-control">6</button>
-					<button data-type="bit" data-id="" class="control js-control">7</button>
-					<button data-type="bit" data-id="" class="control js-control">8</button>
-					<button data-type="bit" data-id="" class="control js-control">9</button>
+					<button data-type="bit" data-id="6.wav" class="control js-control">6</button>
+					<button data-type="bit" data-id="7.wav" class="control js-control">7</button>
+					<button data-type="bit" data-id="8.wav" class="control js-control">8</button>
+					<button data-type="bit" data-id="9.wav" class="control js-control">9</button>
+				</div>
+			</section>
+			<section class="panel piano-panel">
+				<select class="select">
+					<option value="piano">piano</option>
+					<option value="piano2">piano2</option>
+					<option value="piano3">piano3</option>
+				</select>
+				<div class="controls">
+					<button data-type="piano" data-id="1.wav" class="control js-control">1</button>
+					<button data-type="piano" data-id="2.wav" class="control js-control">2</button>
+					<button data-type="piano" data-id="3.wav" class="control js-control">3</button>
+					<button data-type="piano" data-id="4.wav" class="control js-control">4</button>
+					<button data-type="piano" data-id="5.wav" class="control js-control">5</button>
+					<button data-type="piano" data-id="6.wav" class="control js-control">6</button>
+					<button data-type="piano" data-id="7.wav" class="control js-control">7</button>
 				</div>
 			</section>
 		</div>

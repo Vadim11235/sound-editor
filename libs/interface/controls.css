@@ -10,6 +10,12 @@
 	background-color: #fed8c5;
 	box-shadow: 0 0 5px #e75bb8;
 }
+.piano-panel {
+	margin-left: 15px;
+	padding: 5px;
+	background-color: #a6e6f2;
+	box-shadow: 0 0 5px #e75bb8;
+}
 .select {
 	width: 100%;
 	margin-bottom: 10px;
@@ -34,17 +40,22 @@
 	text-align: center;
 	border: none;
 	outline: none;
-	color: #4f7287;
-	background-color: #fbf4f7;
-	box-shadow: 0 0 2px #a00;
 	box-sizing: border-box;
 	transition: .3s;
 }
 .control:hover {
 	cursor: pointer;
-	box-shadow: 0 0 5px #a00;
 }
 .control.active {
-	color: #fff;
-	background-color: #e4b4cc;
+	position: relative;
+	overflow: hidden;
+}
+.time {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0px;
+	transition: .1s;
+	pointer-events: none;
 }

@@ -1,0 +1,58 @@
+.panels {
+	padding: 15px;
+}
+.panel {
+	vertical-align: top;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+.bass-panel {
+	padding: 5px;
+	background-color: #fed8c5;
+	box-shadow: 0 0 5px #e75bb8;
+}
+.bass-panel .control {
+	color: #4f7287;
+	background-color: #fbf4f7;
+	box-shadow: 0 0 2px #a00;
+}
+.bass-panel .control:hover {
+	box-shadow: 0 0 5px #a00;
+}
+.bass-panel .control.active {
+	color: #fff;
+	background-color: #e4b4cc;
+}
+.bass-panel .time {
+	background-color: #bb448080;
+}
+
+.piano-panel {
+	margin-left: 15px;
+	padding: 5px 7px 10px;
+	background-color: #a6e6f2;
+	box-shadow: 0 0 5px #e75bb8;
+}
+.piano-panel .controls {
+	width: 227px;
+}
+.piano-panel .control {
+	margin: 2px;
+	width: 25px;
+	height: 35px;
+	border-radius: 5px;
+	color: #357550;
+	background-color: #a5dcb2;
+	box-shadow: 0 0 2px #225177;
+}
+.piano-panel .control:hover {
+	box-shadow: 0 0 5px #225177;
+}
+.piano-panel .control.active {
+	color: #fff;
+	background-color: #7ecd91;
+}
+.piano-panel .time {
+	background-color: #47b86280;
+}
