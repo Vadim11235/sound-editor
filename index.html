@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#f8bd25">
+	<title>Sound editor</title>
+	<link rel="stylesheet" href="libs/interface/base.css">
+	<link rel="stylesheet" href="libs/interface/controls.css">
+	<link rel="stylesheet" href="libs/interface/samples.css">
+</head>
+<body>
+	<div class="container">
+		<div class="panels">
+			<section class="panel bass-panel">
+				<select class="select">
+					<option value="samles1">samles1</option>
+					<option value="samles2">samles2</option>
+					<option value="samles3">samles3</option>
+				</select>
+				<div class="controls">
+					<button data-type="bit" data-id="bouncy-groovy-uk-drill-drums-loop_144bpm_C_minor.wav" class="control js-control">1</button>
+					<button data-type="bit" data-id="edm-synth-bass-arpeggio-looop_115bpm.wav" class="control js-control">2</button>
+					<button data-type="bit" data-id="filter-mod-electro-synth-bass-loop_127bpm_B_major.wav" class="control js-control">3</button>
+					<button data-type="bit" data-id="hard-distorted-travis-scott-type-trap-808-bass-one-shot_C_major.wav" class="control js-control">4</button>
+					<button data-type="bit" data-id="pitch-glide-synth-bass-electro-loop_101bpm.wav" class="control js-control">5</button>
+					<button data-type="bit" data-id="" class="control js-control">6</button>
+					<button data-type="bit" data-id="" class="control js-control">7</button>
+					<button data-type="bit" data-id="" class="control js-control">8</button>
+					<button data-type="bit" data-id="" class="control js-control">9</button>
+				</div>
+			</section>
+		</div>
+		<section class="sound-canvas">
+			<div class="samples">
+				<div class="sample"><span>sample 1</span></div>
+				<div class="sample"><span>sample 2</span></div>
+				<div class="sample"><span>sample 3</span></div>
+				<div class="sample"><span>sample 4</span></div>
+				<div class="sample"><span>sample 5</span></div>
+				<div class="sample"><span>sample 6</span></div>
+				<div class="sample"><span>sample 7</span></div>
+			</div>
+		</section>
+	</div>
+
+	<script src="libs/controls.js"></script>
+</body>
+</html>	

@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Indie Flower';
+	src: local('Indie Flower'),
+	url('../../fonts/IndieFlower-Regular.ttf') format('opentype');
+}
+@font-face {
+	font-family: 'Lobster';
+	src: local('Lobster'),
+	url('../../fonts/LobsterTwo-Regular.ttf') format('opentype');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Lobster';
+	src: local('Lobster'),
+	url('../../fonts/LobsterTwo-Bold.ttf') format('opentype');
+	font-weight: bold;
+}
+body {
+	margin: 0;
+	background-color: #e4f1fa;
+}
+.container {
+	margin: 10px auto 0;
+	max-width: 500px;
+	border-radius: 20px;
+	box-shadow: 0 0 3px #0af;
+	background-color: #ece6ce;
+	box-sizing: border-box;
+	overflow: hidden;
+}

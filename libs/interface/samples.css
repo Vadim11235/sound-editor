@@ -1,0 +1,32 @@
+.sound-canvas {
+	height: 150px;
+	background-color: #a6e6f299;
+	overflow: auto hidden;
+}
+.sound-canvas::-webkit-scrollbar { width: 8px; height: 8px; }
+.sound-canvas::-webkit-scrollbar-button { width: 0px; }
+.sound-canvas::-webkit-scrollbar-track { background-color: #154b6a; }
+.sound-canvas::-webkit-scrollbar-thumb { background-color: #2482b9; border-radius: 50px; transition: .3s; }
+.sound-canvas::-webkit-scrollbar-thumb:hover { background-color: #2a96d5; }
+.sound-canvas::-webkit-scrollbar-thumb:active { background-color: #aad5ee; }
+
+.samples {
+	width: 700px;
+	height: 100%;
+	font-size: 0;
+}
+.sample {
+	margin-right: 5px;
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	color: #fff;
+	background-color: #2482b999;
+}
+.sample > span {
+	display: inline-block;
+	margin-top: 30%;
+	margin-left: 5px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}

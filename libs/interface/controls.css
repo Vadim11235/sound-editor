@@ -1,0 +1,50 @@
+.panels {
+	padding: 15px;
+}
+.panel {
+	display: inline-block;
+	border-radius: 15px;
+}
+.bass-panel {
+	padding: 5px;
+	background-color: #fed8c5;
+	box-shadow: 0 0 5px #e75bb8;
+}
+.select {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 1px 2px 1px 5px;
+	font-size: 15px;
+	border: none;
+	border-radius: 15px;
+	background-color: #fd9a68;
+}
+.controls {
+	width: 137px;
+}
+.control {
+	margin: 3px;
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	text-align: center;
+	border: none;
+	outline: none;
+	color: #4f7287;
+	background-color: #fbf4f7;
+	box-shadow: 0 0 2px #a00;
+	box-sizing: border-box;
+	transition: .3s;
+}
+.control:hover {
+	cursor: pointer;
+	box-shadow: 0 0 5px #a00;
+}
+.control.active {
+	color: #fff;
+	background-color: #e4b4cc;
+}
